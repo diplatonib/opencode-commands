@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "opencode-runner": {
+      "source": "luongnv89/skills",
+      "sourceType": "github",
+      "skillPath": "skills/opencode-runner/SKILL.md",
+      "computedHash": "64c04596aba38cd5913ec3f5c9be57bb494132e2d440288e2c9b4d31906cbead"
+    }
+  }
+}

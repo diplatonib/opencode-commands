@@ -1,0 +1,11 @@
+.idea/
+
+# Локальная переопределяемая конфигурация
+opencode.json
+opencode.jsonc
+
+node_modules/
+*.log
+
+.DS_Store
+

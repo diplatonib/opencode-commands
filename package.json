@@ -1,0 +1,25 @@
+{
+  "name": "@diplatonib/opencode-commands",
+  "version": "0.1.0",
+  "description": "Плагин для opencode: slash-команды и скиллы",
+  "keywords": ["opencode", "opencode-plugin", "commands", "skills"],
+  "license": "MIT",
+  "type": "module",
+  "main": "./.opencode/plugins/commands.ts",
+  "exports": {
+    ".": "./.opencode/plugins/commands.ts",
+    "./plugin": "./.opencode/plugins/commands.ts",
+    "./server": "./.opencode/plugins/commands.ts"
+  },
+  "files": [".opencode/", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diplatonib/opencode-commands.git"
+  }
+}
